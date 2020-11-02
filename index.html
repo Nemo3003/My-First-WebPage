@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi segunda web</title>
+</head>
+<!--jaja-->
+<body>
+    <h1>Esto es un titulo</h1>
+      <p>
+         <b> This innocence is brilliant</b>
+         <I> I hope that it will stay
+        This moment is perfect, please don’t go away
+        I need you now
+        And i’ll hold on to it, don’t you let it pass you by</I>
+    </p>
+    <hr />
+    <!--To link to an element that uses an id attribute you use the <a> element again, but the value of the href attribute starts with the # symbol, followed by the value of the id attribute of the
+element you want to link to. In this example, <a href="#top"> links to the <h1> element at the top of the page whose id attribute has a value of top .-->
+    <!--to link to the bottom of the homepage of the website that accompanies this book, you would write:-->
+    <!--to make the link open in a new tab, add target="_blank"-->
+    <h2>Examples of a page (links)</h2>
+       <h2>Film Folk</h2>
+       <h2>Festival Diary</h2>
+       <p>Here are some of the film festivals we
+           will be attending this year.<br />Please
+           <a href="mailto:filmfolk@example.org">
+           contact us</a> if you would like more
+           information.</p>
+       <h3>January</h3>
+       <p><a href="http://www.sundance.org" target="_blank">
+           Sundance Film Festival</a><br />
+           Park City, Utah, USA<br />
+           20 - 30 January 2011</p>
+       <h3>February</h3>
+       <p><a href="http://www.tropfest.com" target="_blank">
+           Tropfest</a><br />
+           Sydney, Australia<br />
+           20 February 2011</p>
+       <!-- additional content -->
+       <p><a href="about.html">About Film Folk</a></p>
+       <p><a href="#top">Top of page</a></p>
+    <hr />
+    <a href="http:/www.htmlandcssbookcom/#bottom">CssBook</a>
+    <h2 id="top">Film-Making Terms</h2>
+         <a href="#arc_shot">Arc Shot</a><br />
+         <a href="#interlude">Interlude</a><br />
+         <a href="#prologue">Prologue</a><br /><br />
+    <h2 id="arc_shot">Arc Shot</h2>
+      <p>A shot in which the subject is photographed by an
+          encircling or moving camera</p>
+    <h2 id="interlude">Interlude</h2>
+      <p>A brief, intervening film scene or sequence, not
+         specifically tied to the plot, that appears
+         within a film</p>
+    <h2 id="prologue">Prologue</h2>
+      <p>A speech, preface, introduction, or brief scene
+         preceding the the main action or plot of a film;
+         contrast to epilogue</p>
+      <p><a href="#top">Top</a></p> <br />
+      <hr />
+    <h2>Esto es un titulo</h2>
+    <!--<sup> hace que se "eleve" una cifra, como el 2 al cuadrado seria 2<sup>2</sup>-->
+    <!--When the browser comes across more than one space, it just interprets it as 1 space-->
+     <p>On the 4<sup>th</sup> of September                     you will learn
+        about E=MC<sup>2</sup>.</p></p>
+    <h3>Esto es un titulo</h3>
+    <!--la etiqueta "<sub></sub> hace que los numeros vayan abajo, como sub = abajo o más bajo-->
+     <p>The amount of CO<sub>2</sub> in the atmosphere
+        grew by 2ppm in 2009<sub>1</sub>.</p>
+    <h4>Esto es un titulo</h4>
+    <!--the <br /> tag is to add a line break-->
+     <p>The Earth<br />gets one hundred tons heavier
+        every day<br />due to falling space dust.</p>
+        <h5>Adding Images</h5>
+        <p><img src="/home/ulises/Documents/Projects/Tierra-1.jpg" alt="Earth" width="250" height="200" title="The earth is round and kinda blue"/>
+            Earth is our home planet. Scientists believe Earth and its moon formed around the same time as the rest of the solar system. 
+            They think that was about 4.5 billion years ago. Earth is the fifth-largest planet in the solar system. Its diameter is about 8,000 miles. And Earth is the third-closest planet to the sun. Its average distance from the sun is about 93 million miles. 
+            Only Mercury and Venus are closer.</p> 
+        <figure>
+    <!--mages often come with captions. HTML5 has introduced a new <figure> element to contain images and their caption so that the two are associated.-->
+    <!--You can have more than one image inside the <figure> element as long as they all share the same caption.-->
+        <img src="/home/ulises/Documents/Projects/tierra.jpg" alt="Earth 2" width="150" height="100"> 
+        <br />
+        <!--The <figcaption> element has been added to HTML5 in order to allow web page authors to add a caption to an image.-->
+            <figcaption>Earth is the only planet known to have large amounts of liquid water.</figcaption>
+        </figure>
+            <h5>Esto es un titulo</h5>
+    <!--the <hr /> tag creates a line-->
+     <p>Venus is the only planet that rotates
+        clockwise.</p>
+        <hr />
+        <p>Jupiter is bigger than all the other planets
+        combined.</p>
+    <h6>Esto es un titulo</h6>
+    <!--The use of the <strong>element indicates that itscontent has strong importance.-->
+     <p><strong>Beware:</strong> Pickpockets operate in
+        this area.</p>
+        <p>This toy has many small pieces and is <strong>not
+        suitable for children under five years old.
+        </strong></p>
+    <h6>Another Title</h6>  
+    <!--The <em> element indicates emphasis that subtly changes the meaning of a sentence--> 
+     <p>I <em>think</em> Ivy was the first.</p>
+     <p>I think <em>Ivy</em> was the first.</p>
+     <p>I think Ivy was the <em>first</em>.</p>
+    <h3>Let's continue</h3>
+     <!--The <blockquote> element is used for longer quotes that take up an entire paragraph.-->
+     <blockquote cite="http://en.wikipedia.org/wiki/
+    Winnie-the-Pooh">
+     <p>Did you ever stop to think, and forget to start
+             again?</p>
+     </blockquote>
+    <h4>Quotations everywhere</h4>
+     <!--The <q> element is used for shorter quotes that sit within a paragraph. Browsers add quotes around it-->
+     <p>As A.A. Milne said, <q>Some people talk to
+        animals. Not many listen though. That's the
+        problem.</q></p>
+     <!--Both elements may use the cite attribute to indicate where the quote is from. Its value should be a URL that will have more information about the source of the quotation.-->
+    <h4>Now Abreviations</h4>
+     <!--If you use an abbreviation or an acronym, then the <abbr> element can be used. A title attribute on the opening tag is used to specify the full term.-->
+      <p><abbr title="Professor">Prof</abbr> Stephen
+     Hawking is a theoretical physicist and
+     cosmologist.</p>
+      <p><acronym title="National Aeronautics and Space
+     Administration">NASA</acronym> do some crazy
+     space stuff.</p>
+     <h3>Links</h3>
+      <!--Links are created using the <a> element which has an attribute called href . The value of the href attribute is the page that you want people to go to when they click on the link.-->
+      <!--When you link to a different website, the value of the href attribute will be the full web address for the site, which is known as an absolute URL.-->  
+        <p>Movie Reviews:
+          <ul>
+                 <li><a href="http://www.empireonline.com">
+                         Empire</a></li>
+                 <li><a href="http://www.metacritic.com">
+                         Metacritic</a></li>
+                 <li><a href="http://www.rottentomatoes.com">
+                         Rotten Tomatoes</a></li>
+                 <li><a href="http://www.variety.com">
+                         Variety</a></li>
+          </ul>
+        </p>
+        <p>
+            <!--When you are linking to other pages within the same site, you do not need to specify the domain name in the URL. You can use a shorthand known as a relative URL.-->
+             <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="movies.html">Movies</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+             </ul>
+        </p>
+        <a href="mailto:example@gmail.com">Email Me</a> <br />
+    <!--To create a link that starts up the user's email program and addresses an email to a specified email address, you use the <a>
+element. However, this time the value of the href attribute starts with mailto: and is followed by the email address you want the email to be sent to.-->
+         <a href="http://www.imdb.com" target="_blank">
+          Movie Database</a> (opens in new window)
+<!--If you want a link to open in a new window, you can use the
+target attribute on the opening <a> tag. The value of this attribute should be _blank .-->
+    <h2>Practicing Lists!</h2>
+    <!--Ordered lists are lists where each item in the list is numbered. For example, the list might be a set of steps for a recipe that must be performed in order, or a legal contract where each point needs to be identified by a section number.-->
+    <!--The ordered list is created with the <ol> element.-->
+      <ol>
+         <li>Chop potatoes into quarters</li>
+         <li>Simmer in salted water for 15-20
+        minutes until tender</li>
+         <li>Heat milk, butter and nutmeg</li>
+         <li>Drain potatoes and mash</li>
+         <li>Mix in the milk mixture</li>
+    <!--Each item in the list is placed between an opening <li> tag and a closing </li> tag. (The li stands for list item.)-->
+         </ol>
+      <ul>
+          <!--The unordered list is created with the <ul> element.-->
+          <!--Unordered lists are lists that begin with a bullet point (rather than characters that indicate order)-->
+         <li>1kg King Edward potatoes</li>
+         <li>100ml milk</li>
+         <li>50g salted butter</li>
+         <li>Freshly grated nutmeg</li>
+         <li>Salt and pepper to taste</li>
+         </ul>
+       <!--The definition list is created with the <dl> element and usually consists of a series of terms and their definitions.-->
+       <!--Definition lists are made up of a set of terms along with the definitions for each of those terms.-->
+       <!--dt:This is used to contain the term being defined (the definition term).-->
+       <!--This is used to contain the definition.-->
+       <dl>
+        <dt>Sashimi</dt>
+        <dd>Sliced raw fish that is served with
+                         condiments such as shredded daikon radish or
+                         ginger root, wasabi and soy sauce</dd>
+        <dt>Scale</dt>
+        <dd>A device used to accurately measure the
+                         weight of ingredients</dd>
+        <dd>A technique by which the scales are removed
+                         from the skin of a fish</dd>
+        <dt>Scamorze</dt>
+        <dt>Scamorzo</dt>
+        <dd>An Italian cheese usually made from wholecow's milk
+             (although it was traditionally made
+             from buffalo milk)</dd>
+            </dl>
+        <ul>
+     <!--You can put a second list inside an <li> element to create a sub-list or nested list.-->
+            <li>Mousses</li>
+            <li>Pastries
+                    <ul>
+                        <li>Croissant</li>
+                        <li>Mille-feuille</li>
+                        <li>Palmier</li>
+                        <li>Profiterole</li>
+                         </ul>
+                </li>
+                <li>Tarts</li>
+                </ul>
+        <hr />
+        <h2>Here we have an example</h2>
+
+                     <h3>Scrambled Eggs</h3>
+                     <p>Eggs are one of my favourite foods. Here is a
+                         recipe for deliciously rich scrambled eggs.</p>
+                     <h2>Ingredients</h2>
+                     <ul>
+                         <li>2 eggs</li>
+                         <li>1tbs butter</li>
+                         <li>2tbs cream</li>
+                     </ul>
+                     <h3>Method</h3>
+                     <ol>
+                         <li>Melt butter in a frying pan over a medium
+                                 heat</li>
+                         <li>Gently mix the eggs and cream in a bowl</li>
+                         <li>Once butter has melted add cream and eggs</li>
+                         <li>Using a spatula fold the eggs from the edge of
+                                 the pan to the center every 20 seconds (as if
+                                 you are making an omelette)</li>
+                         <li>When the eggs are still moist remove from the
+                                 heat (it will continue to cook on the plate
+                                 until served)</li>
+                     </ol>
+                <hr />
+    <h3>Cites</h3>
+     <!--When you are referencing a piece of work such as a book, film or research paper, the <cite> element can be used to indicate where the citation is from.-->
+     <!--It shouldn't be use for a person's name-->
+        <p><cite>A Brief History of Time</cite> by Stephen
+        Hawking has sold over ten million copies
+        worldwide.</p> 
+    <h2>Definitions</h2>
+     <!--The <dfn> element is used to indicate the defining instance of a new term.-->
+     <p>A <dfn>black hole</dfn> is a region of space from
+        which nothing, not even light, can escape.</p>
+    <h4>get in contact!</h4>
+     <!--The <address> element has quite a specific use: to contain contact details for the author of the page.-->
+     <address>
+        <p><a href="mailto:homer@example.org">
+                 homer@example.org</a></p>
+        <p>742 Evergreen Terrace, Springfield.</p>
+        </address>
+    <h3>Changing the content</h3>
+     <!--The <ins> element can be used to show content that has been inserted into a document, while the <del> element can show text that has been deleted from it.-->
+         <p>It was the <del>worst</del> <ins>best</ins> idea
+        she had ever had.</p>
+     <!--The <s> element indicates something that is no longer accurate or relevant (but that should not be deleted).-->
+        <p>Laptop computer:</p>
+        <p><s>Was $995</s></p>
+        <p>Now only $375</p>
+
+        <h2>Chapter 1</h2>
+        <p>Molly had been staring out of her window for about
+            an hour now. On her desk, lying between the copies
+            of <i>Nature</i>, <i>New Scientist</i>, and all
+            the other scientific journals her work had
+            appeared in, was a well thumbed copy of <cite>On
+            The Road</cite>. It had been Molly's favorite book
+            since college, and the longer she spent in these
+            four walls the more she felt she needed to be
+            free.</p>
+        <p>She had spent the last ten years in this room,
+            sitting under a poster with an Oscar Wilde quote
+            proclaiming that <q>Work is the refuge of
+            people who have nothing better to do</q>. Although
+            many considered her pioneering work, unraveling
+            the secrets of the llama <abbr
+            title="Deoxyribonucleic acid">DNA</abbr>, to be an
+            outstanding achievement, Molly <em>did</em> think
+            she had something better to do.</p>
+          <h4>creating tables</h4>
+     <table>
+           <tr>
+              <th></th>
+              <th scope="col">Saturday</th>
+              <th scope="col">Night</th>
+           </tr>
+         <!--The <table> element is used to create a table.-->
+           <tr>
+               <th>tickets sold</th>
+         <!--ou indicate the start of each row using the opening <tr> tag. tr= table row-->
+               <td>15</td>
+         <!--Each cell of a table is represented using a <td> element. (The td stands for table data.)-->
+               <td>15</td>
+               <td>30</td>
+           </tr>
+           <tr>
+               <th>Total solds</th>
+         <!--The <th> element is used just like the <td> element but its purpose is to represent the
+heading for either a column or a row. (The th stands for table heading.)-->
+               <td>$300</td>
+               <td>$405</td>
+               <td>$500</td>
+           </tr> 
+           <table>
+               <br />
+                <tr>
+                   <th></th>
+                   <th>9am</th>
+                   <th>10am</th>
+                   <th>11am</th>
+                   <th>12am</th>
+               </tr>
+               <tr>
+                   <th>Monday</th>
+                   <td colspan="2">Geography</td>
+            <!--The colspan attribute can be used on a <th> or <td> element and indicates how many columns that cell should run across.-->
+                   <td>Math</td>
+                   <td>Art</td>
+               </tr>
+               <tr>
+                   <th>Tuesday</th>
+                   <td colspan="3">Gym</td>
+                   <td>Home Ec</td>
+               </tr>
+              <table><br />
+               <tr>
+                   <th></th>
+                   <th>ABC</th>
+                   <th>BBC</th>
+                   <th>CNN</th>
+                </tr>
+                <tr>
+                   <th>6pm - 7pm</th>
+                   <td rowspan="2">Movie</td>
+            <!--The rowspan attribute can be used on a <th> or <td> element to indicate how many rows a cell should span down the table.-->
+                   <td>Comedy</td>
+                   <td>News</td>
+                </tr>
+                <tr>
+                   <th>7pm - 8pm</th>
+                   <td>Sport</td>
+                   <td>Current Affairs</td>
+                </tr>
+              </table>
+              
+            </table>
+          
+     </table>
+
+
+</body>
+</html>
+
+
+            
+    
